@@ -1,0 +1,21 @@
+@relation mika.isWorking 
+
+@attribute days {monday, tuesday, wednesday, thursday, friday, saturday, sunday}
+@attribute holidays {yes, no}
+@attribute work {yes, no}
+
+@data
+monday,no,yes
+tuesday,no,yes
+wednesday,no,yes
+thursday,no,yes
+friday,no,yes
+saturday,no,no
+sunday,no,no
+monday,yes,no
+tuesday,yes,no
+wednesday,yes,no
+thursday,yes,no
+friday,yes,no
+saturday,yes,no
+sunday,yes,no
