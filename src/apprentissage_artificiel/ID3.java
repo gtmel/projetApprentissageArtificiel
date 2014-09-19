@@ -41,7 +41,7 @@ public class ID3 {
 	 */
 	public ID3 recursive(Instances instances, ArrayList<Integer> attributes, int depth, int maxDepth, int errorRate) {
 		if (instances.getInstances().size() == 0) { /* Nœud terminal */
-			/* Retourner un noeuf erreur */
+			/* Retourner un noeud erreur */
 			ID3 newId3 = new ID3();
 			Attribute attTemp = new Attribute(ERROR, INIT, ERROR_I, 0, 0);
 			newId3.setAttribute(attTemp);
